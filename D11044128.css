@@ -1,0 +1,157 @@
+* .pic3 {
+    /*雪之家logo*/
+    position: absolute;
+    top: 20px;
+    left: 10px;
+
+}
+
+.pic4 {
+    /*底片雪之家*/
+    position: absolute;
+    top: 70px;
+    right: 30px;
+}
+
+.pic5 {
+    /*志工圖片*/
+    position: absolute;
+    top: 350px;
+    right: 20px;
+}
+
+.pic6 {
+    /*獎狀*/
+    position: absolute;
+    top: 450px;
+    right: 90px;
+}
+
+/*學歷*/
+.pic7 {
+    /*國中*/
+    position: absolute;
+    top: 80px;
+    left: 30px;
+}
+
+.pic8 {
+    /*高中*/
+    position: absolute;
+    top: 270px;
+    left: 30px;
+}
+
+.pic9 {
+    /*大學*/
+    position: absolute;
+    top: 460px;
+    left: 30px;
+}
+
+/*工作*/
+.pic10 {
+    /*網頁*/
+    position: absolute;
+    top: 20px;
+    left: 800px;
+
+}
+
+.pic11 {
+    /*活動照01*/
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+.pic12 {
+    /*證件*/
+    position: absolute;
+    top: 200px;
+    left: 20px;
+}
+
+.pic13 {
+    /*活動照02*/
+    position: absolute;
+    top: 20px;
+    left: 540px;
+}
+
+.pic14 {
+    /*活動照03黃*/
+    position: absolute;
+    top: 20px;
+    left: 280px;
+}
+
+.pic15 {
+    /*高中照片*/
+    position: absolute;
+    top: 260px;
+    left: 230px;
+}
+
+.pic3-6 {
+    position: absolute;
+    top: 245px;
+    left: 10px;
+    font-size: 30px;
+    line-height: 15px;
+}
+
+
+.pic10-14 {
+    position: absolute;
+    top: 185px;
+    right: 20px;
+    font-size: 35px;
+    line-height: 12px;
+}
+
+.sene {
+    /*國中高中字*/
+    position: absolute;
+    top: 75px;
+    left: 250px;
+    font-size: 35px;
+    line-height: 12px;
+}
+
+.uni {
+    /*大學字*/
+    position: absolute;
+    top: 430px;
+    left: 250px;
+    font-size: 35px;
+    line-height: 12px;
+}
+
+.movepic {
+    margin-bottom: 1cm;
+}
+
+.picspace {
+    width: 800%;
+    display: flex;
+    overflow: hidden;
+}
+
+.picspace img {
+    min-width: 5px;
+    height: 180px;
+    object-fit: cover;
+    transform: translateX(0);
+    animation: start 1s linear infinite;
+}
+
+@keyframes start {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(3%);
+    }

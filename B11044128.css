@@ -1,0 +1,99 @@
+* article {
+    background-color: #FFEAB4;
+    border-radius: 15px;
+    padding: 10px;
+    height: 2100px;
+    margin: 30px;
+}
+
+.menu2 {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(56, 56, 219);
+    text-align: center;
+}
+
+
+.me {
+    background-color: #FFF8D7;
+    border-radius: 15px;
+    padding: 15px;
+    height: 500px;
+    margin: 30px;
+
+}
+
+.skill {
+    background-color: #FFF8D7;
+    border-radius: 15px;
+    padding: 15px;
+    height: 500px;
+    margin: 30px;
+
+}
+
+#myVideo {
+    position: absolute;
+    top: 1000px;
+    right: 100px;
+    width: 700px;
+}
+
+.do {
+    background-color: #FFF8D7;
+    border-radius: 15px;
+    padding: 15px;
+    height: 900px;
+    margin: 30px;
+
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.button {
+    width: 100px;
+}
+
+.button:hover .hover {
+    display: block;
+}
+
+.hover {
+    display: none;
+}
+
+.pi1 {
+    position: absolute;
+    top: 350px;
+    left: 120px;
+}
+
+.pi2 {
+    position: absolute;
+    top: 500px;
+    left: 120px;
+    z-index: 10px;
+}
+
+.introduce {
+    position: absolute;
+    top: 390px;
+    right: 200px;
+    line-height: 15px;
+    font-size: 30px;
+}
+
+.skillfont {
+    position: absolute;
+    top: 980px;
+    left: 100px;
+    line-height: 15px;
+    font-size: 28px;
+}

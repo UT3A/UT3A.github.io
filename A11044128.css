@@ -1,0 +1,163 @@
+* body {
+    background-size: 75%;
+
+}
+
+@font-face {
+    font-family: ChenYuluoyan-Thin;
+    src: url(font/ChenYuluoyan-Thin.ttf);
+}
+
+p {
+    font-family: ChenYuluoyan-Thin, serif;
+}
+
+ul {
+    font-family: ChenYuluoyan-Thin, serif;
+}
+
+nav {
+    background-color: #d8e0f5;
+    border-radius: 15px;
+    padding: 10px;
+    height: 200px;
+    margin: 30px;
+    line-height: 30px;
+}
+
+.icon1 {
+    position: absolute;
+    top: 190px;
+    left: 330px;
+}
+
+.icon2 {
+    position: absolute;
+    top: 190px;
+    left: 430px;
+}
+
+.icon3 {
+    position: absolute;
+    top: 190px;
+    left: 530px;
+}
+
+.myp {
+    /*我的照片*/
+    position: absolute;
+    top: -35px;
+    right: 180px;
+    height: 350px;
+}
+
+.cam {
+    /*標題子項*/
+    list-style-image: url(img/graycam.png);
+    font-size: 30px;
+    position: absolute;
+    left: 325px;
+    top: 60px;
+}
+
+.intro {
+    /*呂芯穎本名*/
+    position: absolute;
+    left: 335px;
+    top: 25px;
+    font-size: 28px;
+    font-style: 標楷體;
+}
+
+aside {
+    width: 30%;
+    color: white;
+}
+
+.str1 {
+    writing-mode: vertical-lr;
+    position: fixed;
+    list-style-type: none;
+    top: 18px;
+    right: 12px;
+    line-height: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.str2 {
+    writing-mode: vertical-lr;
+    position: fixed;
+    list-style-type: none;
+    top: 145px;
+    right: 12px;
+    line-height: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.str3 {
+    writing-mode: vertical-lr;
+    position: fixed;
+    list-style-type: none;
+    top: 275px;
+    right: 12px;
+    line-height: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.str4 {
+    writing-mode: vertical-lr;
+    position: fixed;
+    list-style-type: none;
+    top: 425px;
+    right: 12px;
+    line-height: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.lab1 {
+    position: fixed;
+    right: -10px;
+    top: -10px;
+}
+
+.lab2 {
+    position: fixed;
+    right: -10px;
+    top: 120px;
+}
+
+.lab3 {
+    position: fixed;
+    right: -10px;
+    top: 250px;
+}
+
+.lab4 {
+    position: fixed;
+    right: -10px;
+    top: 380px;
+}
+
+footer {
+    background-color: #EBD6D6;
+    color: #444444;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    height: 70x;
+    margin: 30px;
+}
+
+.jaemin {
+    position: absolute;
+    top: 730px;
+    right: 100px;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(136, 133, 133);
+}
